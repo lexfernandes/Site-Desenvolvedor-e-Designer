@@ -1,1 +1,32 @@
-
+* {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  max-width: 1200px;
+  padding: 40px 20px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.sub-menu {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sub-menu a {
+  text-decoration: none;
+  line-height: 1.3rem;
+  color: #141414;
+  font-size: 1.125rem;
+  padding: 10px 20px;
+  display: block;
+}

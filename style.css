@@ -114,3 +114,34 @@ strong {
   left: -100px;
   position: absolute;
 }
+.empresa-titulo::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgba(156, 255, 163, 1) 0%,
+    rgba(0, 255, 35, 1) 43%,
+    rgb(1, 221, 30) 100%
+  );
+  left: -5px;
+}
+.empresa-titulo {
+  font-weight: 800;
+  line-height: 1.3;
+}
+.empresa-texto {
+  color: #525252;
+}
+.empresa-habilidades {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.empresa-habilidades li {
+  list-style: none;
+  background: #fff;
+  padding: 10px 10px;
+}

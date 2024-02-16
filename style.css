@@ -149,3 +149,24 @@ strong {
   font-size: 0.875rem;
 }
 /*========== 2 parte do site formação ============== */
+.formacao {
+  background-color: #141414;
+  color: #fff;
+}
+.formacao-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 40px 20px;
+}
+.formacao-subtexto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #525252;
+}
+.formacao-texto {
+  color: #000;
+}

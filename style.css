@@ -158,7 +158,9 @@ strong {
   grid-template-columns: 1fr 2fr;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 40px 20px;
+  padding: 120px 20px;
+  border: 1px solid red;
+  gap: 100px;
 }
 .formacao-subtexto {
   font-size: 1.5rem;
@@ -169,4 +171,21 @@ strong {
 }
 .formacao-texto {
   color: #000;
+}
+.faculdade-lista {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.faculdade {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  border-radius: 4px;
+}
+.faculdade-tipo {
+  color: #dbd9d9;
+  text-transform: uppercase;
+  padding: 15px;
 }

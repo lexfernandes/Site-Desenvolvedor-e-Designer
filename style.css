@@ -160,6 +160,15 @@ strong {
   max-width: 1200px;
   padding: 120px 20px;
   gap: 100px;
+  position: relative;
+}
+.formacao-texto {
+  color: #000;
+  max-width: 5ch;
+  /* font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all; */
 }
 .formacao-subtexto {
   font-size: 1.5rem;
@@ -168,14 +177,10 @@ strong {
   margin-bottom: 60px;
   color: #525252;
 }
-.formacao-texto {
-  color: #000;
-}
 /* estilizar as ul e as li faculdade*/
 .faculdade-lista {
   display: flex;
   gap: 20px;
-  flex-wrap: wrap;
   list-style: none;
 }
 .faculdade {
@@ -186,13 +191,13 @@ strong {
   padding: 20px;
   gap: 10px;
   position: relative;
+  width: 200px;
 }
 .faculdade-tipo {
   color: #dbd9d9;
   text-transform: uppercase;
 }
 .faculdade-instituicao {
-  margin-top: 50px;
 }
 .faculdade-curso::before {
   content: "";

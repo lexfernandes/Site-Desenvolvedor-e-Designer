@@ -2,7 +2,7 @@
   // editor
   "editor.wordWrap": "on",
   "editor.fontSize": 14,
-  "editor.lineHeight": 30,
+  "editor.lineHeight": 1.8,
   "editor.tabSize": 2,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
@@ -10,6 +10,11 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "files.autoSave": "afterDelay",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.renderLineHighlight": "gutter",
+  "breadcrumbs.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
 
   // explorer
   "explorer.compactFolders": false,
@@ -18,6 +23,9 @@
   "workbench.editor.enablePreview": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Omni",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.startupEditor": "newUntitledFile",
 
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",

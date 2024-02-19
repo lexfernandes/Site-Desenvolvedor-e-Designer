@@ -227,3 +227,55 @@ ul {
   color: rgba(174, 167, 156);
   font-size: 1.125rem;
 }
+/*=================== CURSOS E IDIOMAS DO SITE =========================*/
+.formacao-extra {
+  position: relative;
+}
+.cursos h3::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url(./img/Group.png) no-repeat center;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  left: -30px;
+}
+h3 {
+  display: flex;
+  align-items: center;
+  color: rgba(174, 167, 156);
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 0.835rem;
+}
+.cursos ul {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.cursos ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.cursos ul li span {
+  color: rgba(174, 167, 156);
+}
+.idiomas ul li {
+  margin-bottom: 20px;
+}
+.idiomas ul li span {
+  color: rgba(174, 167, 156);
+}
+
+h3::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url(./img/Vector.png) no-repeat center;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  left: -30px;
+}

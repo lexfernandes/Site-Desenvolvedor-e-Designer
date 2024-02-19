@@ -234,7 +234,7 @@ ul {
 .cursos {
   margin-bottom: 60px;
 }
-.cursos h3::before {
+.formacao-extra h3::before {
   content: "";
   display: block;
   position: absolute;
@@ -270,7 +270,7 @@ ul {
 .formacao-extra span {
   color: #8f8f8f;
 }
-h3::before {
+.idiomas h3::before {
   content: "";
   display: block;
   position: absolute;
@@ -280,6 +280,7 @@ h3::before {
   z-index: 1;
   left: -30px;
 }
+/*Detalhe no final da pagina.*/
 .formacao-container::after {
   content: "";
   background-image: url(./img/deco.svg);

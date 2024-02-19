@@ -93,7 +93,7 @@ h2 {
   color: #525252;
 }
 strong {
-  color: #141414;
+  color: #fff;
 }
 .empresa {
   display: grid;
@@ -139,6 +139,8 @@ strong {
   gap: 10px;
   flex-wrap: wrap;
   align-items: start;
+}
+ul {
   list-style: none;
 }
 .empresa-habilidades li {
@@ -179,26 +181,33 @@ strong {
 }
 /* estilizar as ul e as li faculdade*/
 .faculdade-lista {
+  flex-wrap: wrap;
   display: flex;
   gap: 20px;
-  list-style: none;
+  margin-bottom: 3.75rem;
 }
 .faculdade {
-  display: flex;
+  flex: 1;
   flex-direction: column;
   background-color: #000;
   border-radius: 4px;
   padding: 20px;
   gap: 10px;
+}
+.faculdade-curso {
   position: relative;
-  width: 200px;
+  flex: 1;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 40px;
 }
 .faculdade-tipo {
-  color: #dbd9d9;
+  color: rgba(174, 167, 156);
   text-transform: uppercase;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
 }
-.faculdade-instituicao {
-}
+
 .faculdade-curso::before {
   content: "";
   display: block;
@@ -206,5 +215,9 @@ strong {
   height: 20px;
   position: absolute;
   background: linear-gradient(#b6f829, #67dd0a);
-  left: -5px;
+  left: -24px;
+}
+.faculdade-instituicao {
+  color: rgba(174, 167, 156);
+  font-size: 1.125rem;
 }

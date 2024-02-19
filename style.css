@@ -80,6 +80,25 @@ h1::before {
   font-size: 1.5rem;
   color: #525252;
 }
+@media (max-width: 1000px) {
+  .conteudo h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .conteudo h1 {
+    font-size: 2rem;
+  }
+  h1::before {
+    width: 30px;
+    height: 10px;
+    left: 0;
+  }
+}
 /*-----------------------Section do site-------------------------*/
 .container-section {
   display: grid;

@@ -31,6 +31,19 @@ img {
   padding: 10px 20px;
   display: block;
 }
+/*menu do site Nav bar*/
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  header a {
+    background: #f5f5f5;
+    border-radius: 4px;
+  }
+}
+
 /*SEGUNDA PARTE DO SITE - CONTEÚDO*/
 .container {
   /*controla o Grid do main*/

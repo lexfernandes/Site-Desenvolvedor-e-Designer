@@ -92,6 +92,10 @@ h2 {
   margin-bottom: 60px;
   color: #525252;
 }
+.experiencia-texto strong {
+  color: #000;
+}
+
 strong {
   color: #fff;
 }
@@ -188,6 +192,7 @@ ul {
 }
 .faculdade {
   flex: 1;
+  display: flex;
   flex-direction: column;
   background-color: #000;
   border-radius: 4px;

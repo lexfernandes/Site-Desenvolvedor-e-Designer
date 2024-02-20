@@ -20,6 +20,7 @@ header {
   font-size: 1.125rem;
   padding: 10px 20px;
   display: block;
+  font-weight: bold;
 }
 /* !!!!Reponsividade do site!!!*/
 @media (max-width: 800px) {
